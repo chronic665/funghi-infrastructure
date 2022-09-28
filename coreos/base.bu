@@ -1,0 +1,14 @@
+variant: fcos
+version: 1.4.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEiP9lMuqRVesGFs7TyLXcEZJHIkGUqkHKHHyZGvvHMQ chronic6666@gmail.com
+
+storage:
+  files:
+    - path: /etc/hostname
+      mode: 0644
+      contents:
+        inline: funghi-core-1
